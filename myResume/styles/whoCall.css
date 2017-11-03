@@ -1,0 +1,55 @@
+p {
+    text-indent: 2em;
+    margin: 0;
+    padding: 0;
+}
+div.img {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+div.a {
+    padding: 5px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+@keyframes myfirst {
+    0% {
+        transform: rotate(0deg);
+    }
+    33% {
+        transform: rotate(-10deg);
+    }
+    66% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+div.a:hover {
+    animation: myfirst 0.5s;
+}
+#xiangmu {
+    background-color: blue;
+}
+#bottomdiv{
+    margin: 0 auto;
+    text-align: center;
+}
+.jiangzhuang {
+    width: 500px;
+    display: inline;
+    margin: 50px;
+}
+

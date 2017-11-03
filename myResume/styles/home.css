@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 20px;
+}
+#allThings {
+    margin-top: 50px;
+    text-align: center;
+}
+div.item {
+
+    width: 200px;
+    display: inline-block;
+    text-align:center;
+    margin:0 auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+div.a {
+    padding: 5px;
+    margin:0 auto;
+    background-color: blue;
+    border-radius: 5px;
+    width: 80px;
+}
+@keyframes myfirst {
+    0% {
+        transform: rotate(0deg);
+    }
+    33% {
+        transform: rotate(-10deg);
+    }
+    66% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+div.a:hover {
+animation: myfirst 0.5s;
+}
+
+a:active{
+    color: aqua;
+}
+a.detaile{
+    position: relative;
+    padding:5px;
+    top: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.myLink{
+    position: relative;
+    top: 100px;
+    margin: 50px;
+    text-decoration: none;
+    color: blue;
+}
