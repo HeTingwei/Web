@@ -1,47 +1,28 @@
-p {
-    text-indent: 2em;
-    margin: 0;
-    padding: 0;
-}
-div.img {
+h1{
     text-align: center;
 }
-h1 {
+div.img{
     text-align: center;
 }
-div.a {
-    padding: 5px;
-    width: 60px;
-    border-radius: 5px;
-    background-color: blue;
-margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
-}
-a {
+a{
     text-decoration: none;
+}
+div a{
+    background-color: blue;
     color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+div#a{
     text-align: center;
 }
 
-@keyframes myfirst {
-    0% {
-        transform: rotate(0deg);
-    }
-    33% {
-        transform: rotate(-10deg);
-    }
-    66% {
-        transform: rotate(10deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+
+div a:hover{
+    background-color: blueviolet;
 }
-div.a:hover {
-    animation: myfirst 0.5s;
-}
-#bmob{
-    color: blue;
+div a:active{
+    background-color: #00008e;
 }
 
