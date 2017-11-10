@@ -1,7 +1,5 @@
-h1{
-    text-align: center;
-}
-div.img{
+
+h1,div.img{
     text-align: center;
 }
 a{
@@ -41,6 +39,10 @@ div a:hover{
 div a:active{
     background-color: #00008e;
 }
+#xiangmu{
+    color: blue;
+    background-color: white;
+}
 
- 
+
 
