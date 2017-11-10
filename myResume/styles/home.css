@@ -10,7 +10,7 @@ h1 {
     padding: 20px;
 }
 #allThings {
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
 }
 div.item {
@@ -72,7 +72,17 @@ a.detaile{
 .myLink{
     position: relative;
     top: 100px;
-    margin: 50px;
+    margin: 60px;
     text-decoration: none;
     color: blue;
+}
+
+#resume {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#resume_a {
+    color: blue;
+    text-align: center;
 }
