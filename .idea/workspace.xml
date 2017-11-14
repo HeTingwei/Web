@@ -4,6 +4,8 @@
     <list default="true" id="48b2431e-76e2-4d53-ab72-5f3d0e5424a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myResume/res/简历.doc" afterPath="$PROJECT_DIR$/myResume/res/简历.doc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android develop help/home.html" afterPath="$PROJECT_DIR$/Android develop help/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android develop help/style.css" afterPath="$PROJECT_DIR$/Android develop help/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myResume/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="125">
+              <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Android develop help/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android develop help/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,6 +139,8 @@
         <option value="$PROJECT_DIR$/Android开发辅助/Animation/Interpolator.html" />
         <option value="$PROJECT_DIR$/Android开发辅助/home.html" />
         <option value="$PROJECT_DIR$/Android开发辅助/Animation/interpolator.html" />
+        <option value="$PROJECT_DIR$/Android develop help/style.css" />
+        <option value="$PROJECT_DIR$/Android develop help/home.html" />
       </list>
     </option>
   </component>
@@ -151,6 +175,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,26 +237,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.interpolator.html">
+  <component name="RunManager" selected="JavaScript Debug.home.html (2)">
     <configuration name="caiyuan.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/myResume/caiyuan.html" />
     <configuration name="home.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/Android开发辅助/home.html" />
-    <configuration name="home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/myResume/home.html" />
+    <configuration name="home.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/Android develop help/home.html" />
     <configuration name="interpolator.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/Android开发辅助/Animation/interpolator.html" />
     <configuration name="whoCall.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/myResume/whoCall.html" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.caiyuan.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.whoCall.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.home.html (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.interpolator.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.caiyuan.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.whoCall.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.home.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.interpolator.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.home.html (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.interpolator.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.home.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.whoCall.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.caiyuan.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.home.html (2)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.interpolator.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.home.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.whoCall.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.caiyuan.html" />
       </list>
     </recent_temporary>
   </component>
@@ -252,12 +276,13 @@
       <workItem from="1510540095494" duration="614000" />
       <workItem from="1510582137055" duration="35000" />
       <workItem from="1510627642345" duration="2238000" />
-      <workItem from="1510634190436" duration="184000" />
+      <workItem from="1510634190436" duration="732000" />
+      <workItem from="1510639035678" duration="1195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11760000" />
+    <option name="totallyTimeSpent" value="13503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -291,22 +316,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myResume/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myResume/styles/caiyuan.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myResume/caiyuan.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -575,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myResume/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="125">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -617,5 +626,21 @@
     <entry file="file://$PROJECT_DIR$/Android开发辅助/home.html" />
     <entry file="file://$PROJECT_DIR$/Android开发辅助/style.css" />
     <entry file="file://$PROJECT_DIR$/Android开发辅助/Animation/interpolator.html" />
+    <entry file="file://$PROJECT_DIR$/Android develop help/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android develop help/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

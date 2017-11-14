@@ -11,3 +11,7 @@ ul{
     width: 46%;
     list-style-type: none;
 }
+
+li{
+    margin: 5px;
+}
