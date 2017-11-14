@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>插值器Interpolator</title>
+    <style type="text/css">
+
+        div.half{
+            padding: 0;
+            vertical-align: top;
+            position: relative;
+            display: inline-block;
+            margin:1% ;
+            width: 47%;
+        }
+        h1,h2 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+<h1>设置插值器Interpolator属性</h1>
+<!--效果和讲解-->
+<artical>
+    AccelerateDecelerateInterpolator 在动画开始与介绍的地方速率改变比较慢，在中间的时候加速<br>
+    AccelerateInterpolator 在动画开始的地方速率改变比较慢，然后开始加速<br>
+    AnticipateInterpolator 开始的时候向后然后向前甩<br>
+    AnticipateOvershootInterpolator 开始的时候向后然后向前甩一定值后返回最后的值<br>
+    BounceInterpolator 动画结束的时候弹起<br>
+    CycleInterpolator 动画循环播放特定的次数，速率改变沿着正弦曲线<br>
+    DecelerateInterpolator 在动画开始的地方快然后慢<br>
+    LinearInterpolator 以常量速率改变<br>
+    OvershootInterpolator 向前甩一定值后再回到原来位置<br>
+
+</artical>
+<h2>下面是具体效果和使用方法举例</h2>
+<div class="half">
+    <ul>
+        <li>
+            <p>AccelerateDecelerateInterpolator 在动画开始与介绍的地方速率改变比较慢，在中间的时候加速</p>
+            <img src="img/AccelerateDecelerateInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p>在动画开始的地方速率改变比较慢，然后开始加速</p>
+            <img src="img/AccelerateInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p>AnticipateInterpolator 开始的时候向后然后向前甩</p>
+            <img src="img/AnticipateInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p> AnticipateOvershootInterpolator 开始的时候向后然后向前甩一定值后返回最后的值</p>
+            <img src="img/AnticipateOvershootInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p>BounceInterpolator 动画结束的时候弹起</p>
+            <img src="img/BounceInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p>CycleInterpolator 动画循环播放特定的次数，速率改变沿着正弦曲线</p>
+            <img src="img/CycleInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p>DecelerateInterpolator 在动画开始的地方快然后慢</p>
+            <img src="img/DecelerateInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p>LinearInterpolator 以常量速率改变</p>
+            <img src="img/LinearInterpolator.gif" alt="">
+        </li>
+        <li>
+            <p>OvershootInterpolator 向前甩一定值后再回到原来位置</p>
+            <img src="img/OvershootInterpolator.gif" alt="">
+        </li>
+    </ul>
+</div>
+
+<div class="half">
+
+    <h2>插值器使用方法例子</h2>
+    <code>
+        //ofInt的参数是可变长参数，如 ofInt(2,90,45)就表示从数值 2 变化到数字 90 再变化到数字 45<br>
+        ValueAnimator animator = ValueAnimator.ofInt(0, 400);<br>
+        //监听变化并改变textView位置<br>
+        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {<br>
+        @Override<br>
+        public void onAnimationUpdate(ValueAnimator animation) {<br>
+        &nbsp &nbsp int curValue = (int) animation.getAnimatedValue();<br>
+        &nbsp &nbsp //通过layout()修改位置<br>
+        &nbsp &nbsp tv.layout(tv.getLeft(), curValue, tv.getRight(), curValue + tv.getHeight());<br>
+        }<br>
+        });<br>
+        animator.setRepeatMode(ValueAnimator.REVERSE);//循环播放模式：反向退回<br>
+        animator.setRepeatCount(ValueAnimator.INFINITE);//循环播放次数(这个值其实是-1,会一直播放下去)<br>
+        <b> animator.setInterpolator(new BounceInterpolator());//在这里设置插值器</b><br>
+        animator.setDuration(1000);//播放时长<br>
+        animator.start();
+    </code>
+</div>
+</body>
+
+</html>
